@@ -4,7 +4,7 @@ public class Product {
 	/*
 	 * attribute
 	 */
-	String name;
+	private String name;
 	private double price;
 	private int quantity;
 
@@ -44,7 +44,7 @@ public class Product {
 	public void setPrice(double price) {
 		this.price = price;
 	}
-
+	
 	public double getQuantity() {
 		return this.quantity;
 	}

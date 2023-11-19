@@ -23,7 +23,7 @@ public class Program {
 		price = requestPrice(scanner);
 
 		product = new Product(name, price);
-		
+
 		product.setName("Computador");
 
 		System.out.printf("\nAtualizado nome do produto: %s%n", product.getName());
